@@ -1,0 +1,48 @@
+{
+  "releaseName": "3.28.0",
+  "variants": {
+    "": {
+      "toolingSuffix": "",
+      "entryPointPath": "C:\\Users\\username\\AppData\\Local\\AzureFunctionsTools\\Releases\\3.28.0\\cli_x64\\func.exe",
+      "targetFramework": "netcoreapp3.1",
+      "extensionVersion": "~3",
+      "sdkPackage": "Microsoft.NET.Sdk.Functions",
+      "sdkPackageVersion": "3.0.13",
+      "templatesDirectory": "C:\\Users\\username\\AppData\\Local\\AzureFunctionsTools\\Releases\\3.28.0\\templates",
+      "windowsSiteConfig": {
+        "netFrameworkVersion": "v4.0"
+      },
+      "linuxSiteConfig": {
+        "linuxFxVersion": "DOTNET|3.1"
+      },
+      "serviceAppSettings": {
+        "FUNCTIONS_EXTENSION_VERSION": "~3",
+        "FUNCTIONS_WORKER_RUNTIME": "dotnet"
+      },
+      "localContainerBaseImage": "DOCKER|mcr.microsoft.com/azure-functions/dotnet:3.0-appservice",
+      "source": 1
+    },
+    "net5-isolated": {
+      "toolingSuffix": "net5-isolated",
+      "entryPointPath": "C:\\Users\\username\\AppData\\Local\\AzureFunctionsTools\\Releases\\3.28.0\\cli_x64\\dotnet.exe",
+      "targetFramework": "net5.0",
+      "extensionVersion": "~3",
+      "sdkPackage": "Microsoft.Azure.Functions.Worker.Sdk",
+      "sdkPackageVersion": "1.0.3",
+      "templatesDirectory": "C:\\Users\\username\\AppData\\Local\\AzureFunctionsTools\\Releases\\3.28.0\\net5-isolated\\templates",
+      "windowsSiteConfig": {
+        "netFrameworkVersion": "v5.0"
+      },
+      "linuxSiteConfig": {
+        "linuxFxVersion": "DOTNET-ISOLATED|5.0"
+      },
+      "serviceAppSettings": {
+        "FUNCTIONS_EXTENSION_VERSION": "~3",
+        "FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated"
+      },
+      "localContainerBaseImage": "DOCKER|mcr.microsoft.com/azure-functions/dotnet-isolated:3.0-dotnet-isolated5.0-appservice",
+      "source": 1
+    }
+  },
+  "source": 1
+}
