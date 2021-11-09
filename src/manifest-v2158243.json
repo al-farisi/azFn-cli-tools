@@ -1,14 +1,14 @@
 {
-  "releaseName": "3.30.0",
+  "releaseName": "3.30.1",
   "variants": {
     "": {
       "toolingSuffix": "",
-      "entryPointPath": "C:\\Users\\username\\AppData\\Local\\AzureFunctionsTools\\Releases\\3.30.0\\cli_x64\\func.exe",
+      "entryPointPath": "C:\\Users\\[username]\\AppData\\Local\\AzureFunctionsTools\\Releases\\3.30.1\\cli_x64\\func.exe",
       "targetFramework": "netcoreapp3.1",
       "extensionVersion": "~3",
       "sdkPackage": "Microsoft.NET.Sdk.Functions",
       "sdkPackageVersion": "3.0.13",
-      "templatesDirectory": "C:\\Users\\username\\AppData\\Local\\AzureFunctionsTools\\Releases\\3.30.0\\templates",
+      "templatesDirectory": "C:\\Users\\[username]\\AppData\\Local\\AzureFunctionsTools\\Releases\\3.30.1\\templates",
       "windowsSiteConfig": {
         "netFrameworkVersion": "v4.0"
       },
@@ -24,14 +24,14 @@
     },
     "net5-isolated": {
       "toolingSuffix": "net5-isolated",
-      "entryPointPath": "C:\\Users\\username\\AppData\\Local\\AzureFunctionsTools\\Releases\\3.30.0\\cli_x64\\dotnet.exe",
+      "entryPointPath": "C:\\Users\\[username]\\AppData\\Local\\AzureFunctionsTools\\Releases\\3.30.1\\cli_x64\\dotnet.exe",
       "targetFramework": "net5.0",
       "extensionVersion": "~3",
       "sdkPackage": "Microsoft.Azure.Functions.Worker.Sdk",
       "sdkPackageVersion": "1.0.3",
-      "templatesDirectory": "C:\\Users\\username\\AppData\\Local\\AzureFunctionsTools\\Releases\\3.30.0\\net5-isolated\\templates",
+      "templatesDirectory": "C:\\Users\\[username]\\AppData\\Local\\AzureFunctionsTools\\Releases\\3.30.1\\net5-isolated\\templates",
       "windowsSiteConfig": {
-        "netFrameworkVersion": "v5.0"
+        "netFrameworkVersion": "v4.0"
       },
       "linuxSiteConfig": {
         "linuxFxVersion": "DOTNET-ISOLATED|5.0"
